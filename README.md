@@ -33,4 +33,8 @@ npm run build
 
 ## Autor
 
-Isaias Muanda — [github.com/IsaiasMuanda](https://github.com/IsaiasMuanda) · [isaias.vercel.app](https://isaias.vercel.app)
+Isaias Muanda — [github.com/IsaiasMuanda](https://github.com/IsaiasMuanda) ·
+
+## Link
+
+https://nex-shop-flax.vercel.app/
