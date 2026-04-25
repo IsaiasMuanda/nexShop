@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --brand: #5C3BFF;
+  --brand-light: #7B5FFF;
+  --brand-ultra-light: #f0edff;
+  --accent: #FF6B35;
+  --black: #0D0D0D;
+  --dark: #1A1A2E;
+  --gray-900: #1e1e2e;
+  --gray-700: #3d3d5c;
+  --gray-500: #6b6b8a;
+  --gray-300: #c4c4d4;
+  --gray-100: #f4f4f8;
+  --gray-50: #fafafa;
+  --white: #ffffff;
+  --success: #00C896;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --shadow-sm: 0 2px 8px rgba(92,59,255,0.08);
+  --shadow-md: 0 8px 32px rgba(92,59,255,0.12);
+  --shadow-lg: 0 20px 60px rgba(92,59,255,0.15);
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.06);
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--gray-50);
+  color: var(--black);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--gray-100); }
+::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brand); }
